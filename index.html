@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITC505 Lab 3 - Custom Font</title>
+    
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Roboto:wght@700&family=Monoton&family=Pacifico&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-size: 20px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .line1 {
+            font-family: 'Creepster', cursive;
+            font-size: 40px;
+            color: limegreen;
+            text-decoration: underline;
+        }
+
+        .line2 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            color: orange;
+            margin-top: 20px;
+        }
+
+        .line3 {
+            font-family: 'Monoton', cursive;
+            font-size: 30px;
+            color: purple;
+            margin-top: 20px;
+        }
+
+        .line4 {
+            font-family: 'Pacifico', cursive;
+            font-size: 30px;
+            color: cyan;
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="line1"> Custom Fonts</h1>
+    
+    <p class="line2">This is Mahesh Reddy .</p>
+    
+    <p class="line3">Prusing Computer Science in Univeristy.</p>
+    
+    <p class="line4">Hobbies are playing cricket, badminton, reading books and buliding websites.</p>
+    
+    <p>This is example for serving font.</p>
+
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+        var x = document.lastModified;
+        document.getElementById('lastModified').textContent = x;
+    </script>
+
+</body>
+</html>
